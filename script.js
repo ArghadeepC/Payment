@@ -34,7 +34,7 @@ function card_val(cardno)
 }
 function name_val(name)
 {
-  var val_name=/^[A-Za-z]{6,20}$/
+  var val_name=/^[A-Z a-z]{6,20}$/
   if(name.value.match(val_name))
   {
     return true;
